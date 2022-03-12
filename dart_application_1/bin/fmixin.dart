@@ -1,19 +1,19 @@
 import 'dart:html';
 
 mixin Gaji_dasar {
-  void gaji_dasar() {
-
+  int gaji_dasar(int gjDasar) {
+    return gjDasar;
   }
 }
 
 mixin Gaji_Sks {
-  void sks() {
-
+  int gaji_sks(int gjSks) {
+    return gjSks * 40000;
   }
 }
 
 mixin Gaji_Tunjangan {
-  void tunjagan() {
-
+  int gaji_tunjagan(int gjTunjangan) {
+    return gjTunjangan;
   }
 }

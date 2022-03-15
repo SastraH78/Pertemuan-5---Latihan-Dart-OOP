@@ -1,5 +1,3 @@
-import 'dart:html';
-
 mixin Gaji_dasar {
   int gaji_dasar(int gjDasar) {
     return gjDasar;
